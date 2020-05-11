@@ -18,7 +18,7 @@ SECRET_KEY = env('DJANGO_SECRET_KEY')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 #DEBUG = env('DJANGO_DEBUG')
-
+DEBUG_PROPAGATE_EXCEPTIONS = True
 
 ALLOWED_HOSTS = [env('DJANGO_ALLOWED_HOSTS')]
 #ALLOWED_HOSTS=['127.0.0.1','192.168.1.3', '36.72.10.81','131184133255.ip-dynamic.com','36.71.243.181']
