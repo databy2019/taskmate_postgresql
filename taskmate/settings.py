@@ -16,8 +16,9 @@ SECRET_KEY = env('DJANGO_SECRET_KEY')
 #SECRET_KEY = '0*)21f1gt79!+=s929s)+i@(7w5dp6)*5-syzi@^^^04)a&)f%'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-#DEBUG = True
-DEBUG = env('DJANGO_DEBUG')
+DEBUG = False
+#DEBUG = env('DJANGO_DEBUG')
+
 
 ALLOWED_HOSTS = [env('DJANGO_ALLOWED_HOSTS')]
 #ALLOWED_HOSTS=['127.0.0.1','192.168.1.3', '36.72.10.81','131184133255.ip-dynamic.com','36.71.243.181']
